@@ -9,3 +9,6 @@ run Qlearning.py
 
 # SARSA 
 run Sarsa-left_and_right.py
+
+# Reference
+https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
