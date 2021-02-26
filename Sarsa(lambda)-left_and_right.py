@@ -115,7 +115,7 @@ def rl():
             e_table.loc[S, A] += 1
             for s in range(N_STATES):
                 for a in list(ACTIONS):
-                    q_table.loc[S, A] += ALPHA * delta * e_table.loc[s, a]
+                    q_table.loc[s, a] += ALPHA * delta * e_table.loc[s, a]
                     e_table.loc[s, a] = GAMMA * LAMBDA * e_table.loc[s, a]
 
             S = S_  # move to next state
