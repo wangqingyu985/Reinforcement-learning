@@ -1,17 +1,23 @@
-# Environment
+## Environment
 Ubuntu18.04,PyCharm,Anaconda
 
-# Installation
+## Installation
 install packages 'numpy' and 'pandas' by using pip or conda
 
-# Q-learning 
-run Qlearning.py
+## Q-learning
+'''python
+python Qlearning.py
+'''
 
-# SARSA 
-run Sarsa-left_and_right.py
+## SARSA
+'''python
+python Sarsa-left_and_right.py
+'''
 
-# SARSA(lambda)
-run Sarsa(lambda)-left_and_right.py
+## SARSA(lambda)
+'''python
+python Sarsa(lambda)-left_and_right.py
+'''
 
-# Reference
-https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
+## Reference
+* [1] https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
